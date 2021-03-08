@@ -36,7 +36,7 @@ func main() {
 }
 
 func init_DB() {
-	dsn := "test:Wwq123456!@tcp(81.68.251.42:3306)/GOSQLTest?charset=utf8"
+	dsn := "test:Ww*****6!@tcp(81.68.251.42:3306)/GOSQLTest?charset=utf8"
 	//dsn := "root:Wwq123456_@tcp(81.68.251.42:3306)/GOSQLTest?charset=utf8"
 	db, err = sql.Open("mysql", dsn)
 	if err != nil {
